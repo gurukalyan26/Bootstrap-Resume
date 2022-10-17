@@ -1,0 +1,68 @@
+$primary-color:#fff;
+$secondary-color:#4e555b;
+$width: 200px;
+$height: 200px;
+$margin-left: 60px;
+$margin-top: 20px;
+$font-size: 20px;
+$margin-bottom: 5px;
+$list-style-type: none;
+.header-left img {
+    width: $width;
+    height: $height;
+    margin-left: $margin-left;
+    margin-top: $margin-top;
+}
+
+.info {
+    color: $primary-color;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.list {
+    list-style-type: $list-style-type;
+}
+
+.list-item {
+    margin-left: 20px;
+    font-size: 20px;
+    color: $primary-color;
+    margin-bottom: $margin-bottom;
+}
+
+.name {
+    font-size: 100px;
+}
+
+.work {
+    background: $secondary-color;
+    color: $primary-color;
+}
+
+.date {
+    margin-left: 30px;
+}
+
+.data {
+    margin-left: 160px;
+    font-size: 20px;
+}
+
+.speak {
+    color: $primary-color;
+    font-size: 20px;
+}
+
+.progress {
+    background: $primary-color;
+}
+
+.skills {
+    color: $secondary-color;
+    font-size: 30px;
+}
+
+.progress-bar {
+    background: $secondary-color;
+}

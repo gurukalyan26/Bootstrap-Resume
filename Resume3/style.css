@@ -1,0 +1,46 @@
+img {
+    margin-left: 60px;
+    width: 200px;
+    height: 200px;
+}
+
+.info {
+    list-style-type: none;
+    color: black;
+}
+
+.personal {
+    margin-left: 20px;
+    margin-top: 40px;
+}
+
+.name {
+    color: #fff;
+    text-align: center;
+}
+
+.role {
+    color: #fff;
+    text-align: center;
+}
+
+.section-header {
+    color: black;
+    border-bottom: 5px solid black;
+}
+
+.designation {
+    color: black;
+}
+
+p {
+    color: black;
+}
+
+li {
+    color: black;
+}
+
+.progress-bar {
+    background: black;
+}

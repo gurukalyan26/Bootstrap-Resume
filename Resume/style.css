@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Carattere&family=Lato:wght@700&family=Montagu+Slab:wght@500;600&display=swap');
+.row {
+    font-family: 'Berkshire Swash', cursive;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    font-size: 15px;
+    color: black;
+}
+
+.header-section {
+    text-align: center;
+    padding-top: 5px;
+    background: #ccc;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    font-family: 'Berkshire Swash', cursive;
+}
+
+.list-item {
+    color: black;
+}
+
+.contact-item {
+    font-family: 'Berkshire Swash', cursive;
+}
+
+.profile-image img {
+    height: 150px;
+    width: 150px;
+}
+
+.media {
+    list-style: none;
+}
+
+.icons {
+    font-size: 30px;
+}
+
+.contact-item {
+    padding: 5px;
+    font-size: 15px;
+}
+
+.row {
+    padding-top: 5px;
+}
+
+.section-header {
+    background-color: cyan;
+    padding: 10px;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+.list {
+    list-style: none;
+}
+
+.list-item {
+    font-size: 15px;
+}
+
+.col-sm-8 {
+    border-left: 3px double black;
+}
+
+strong {
+    font-size: 15px;
+}
+
+.progress-bar {
+    background: black;
+}
+
+.date {
+    font-size: 20px;
+    color: black;
+}
+
+.desk {
+    margin-left: 100px;
+}
+
+.designation {
+    font-size: 20px;
+    color: black;
+}
+
+.text {
+    color: cyan;
+}
+
+li {
+    color: black;
+}
+
+.school {
+    font-size: 20px;
+    color: cyan;
+}
+
+.course {
+    margin-left: 100px;
+}

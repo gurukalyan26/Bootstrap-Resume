@@ -1,0 +1,83 @@
+$primary-color:#fff;
+$text-align:left;
+$background:black;
+$color:#0dcaf0;
+$width:200px;
+$height:200px;
+$margin-left:80px;
+$margin-top:10px;
+$list-style-type:none;
+$font-size:20px;
+$padding:5px;
+$border-bottom:5px solid #0dcaf0;
+.row {
+    text-align: $text-align;
+    color: $primary-color;
+    background: $background;
+}
+
+.section-header {
+    color: $color;
+}
+
+.header-left {
+    width: $width;
+    height: $height;
+    margin-left: $margin-left;
+    margin-top: $margin-top;
+}
+
+.info {
+    list-style-type: $list-style-type;
+}
+
+.list-item {
+    color: $primary-color;
+    font-size: $font-size;
+}
+
+.name {
+    color: $primary-color;
+    font-size: 30px;
+}
+
+.personal {
+    margin-left: 20px;
+    margin-top: 40px;
+}
+
+.progress {
+    margin-bottom: 10px;
+}
+
+.progress-bar {
+    background: $color;
+}
+
+.header-right {
+    background: $color;
+    padding: $padding;
+    color: $background;
+}
+
+.work {
+    color: $color;
+    border-bottom: $border-bottom;
+}
+
+.designation {
+    color: $color;
+}
+
+.date {
+    color: $color;
+}
+
+.city {
+    margin-left: 510px;
+}
+
+.desk {
+    border-bottom: 5px solid black;
+    color: $primary-color;
+}

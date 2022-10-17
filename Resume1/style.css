@@ -1,0 +1,110 @@
+.image img {
+    width: 200px;
+    height: 200px;
+    margin-left: 85px;
+    border: 2px solid #0dcaf0;
+}
+
+.image {
+    padding: 10px;
+}
+
+.name {
+    color: #0dcaf0;
+}
+
+.role {
+    color: #0dcaf0;
+}
+
+.name-role {
+    text-align: center;
+}
+
+.aboutme {
+    background: #0dcaf0;
+    padding: 10px;
+}
+
+.section-header {
+    color: #0dcaf0;
+    border-bottom: 5px solid #0dcaf0;
+}
+
+.info {
+    list-style-type: none;
+}
+
+.list-item {
+    color: #fff;
+    font-size: 15px;
+    padding: 5px;
+}
+
+span {
+    color: #fff;
+}
+
+.header-right {
+    color: #fff;
+}
+
+.designation {
+    color: #0dcaf0;
+}
+
+p {
+    color: #fff;
+}
+
+.resume_data {
+    display: flex;
+    color: #0dcaf0;
+}
+
+.year {
+    font-weight: bolder;
+    color: #fff;
+}
+
+STRONG {
+    color: #fff;
+}
+
+.resume_data .year {
+    padding-right: 35px;
+    width: 115px;
+    position: relative;
+}
+
+.resume_data .content {
+    padding-left: 35px;
+    margin-bottom: 20px;
+    width: calc(100% - 115px);
+}
+
+.resume_data .year:before {
+    content: "";
+    position: absolute;
+    top: 5px;
+    right: 0;
+    width: 15px;
+    height: 12px;
+    background: #fff;
+    border: 8px solid #0dcaf0;
+    border-radius: 50%;
+}
+
+.resume_data .year:after {
+    content: "";
+    position: absolute;
+    top: 21px;
+    left: 105px;
+    width: 5px;
+    height: 100%;
+    background: #fff;
+}
+
+.resume_data:last-child .year:after {
+    display: none;
+}

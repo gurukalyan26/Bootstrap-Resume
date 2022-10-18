@@ -1,0 +1,198 @@
+        @import url('https://fonts.googleapis.com/css2?family=Carattere&family=Oleo+Script&family=Rubik:ital,wght@1,300&family=Ubuntu:ital@1&display=swap');
+        .container {
+            padding-top: 10px;
+        }
+        
+        .row {
+            font-family: 'Ubuntu', sans-serif;
+        }
+        
+        .left-aside {
+            background-color: #585c68;
+        }
+        
+        .image img {
+            width: 150px;
+            height: 200px;
+            border-radius: 30px;
+        }
+        
+        .name {
+            color: #fff;
+            text-align: center;
+            text-transform: uppercase;
+        }
+        
+        .role {
+            color: #fff;
+            text-align: center;
+        }
+        
+        .title {
+            border-bottom: 3px solid #fff;
+        }
+        
+        .list {
+            list-style: none;
+            color: #fff;
+            margin-top: 10px;
+        }
+        
+        .list li {
+            display: flex;
+            align-items: center;
+        }
+        
+        .data {
+            font-size: 20px;
+            padding: 6px;
+            padding-bottom: 20px;
+        }
+        
+        .item {
+            list-style: none;
+            color: #fff;
+            margin-right: 10px;
+        }
+        
+        .list li .icons {
+            width: 35px;
+            height: 35px;
+            background: #fff;
+            border-radius: 50px;
+            color: black;
+            text-align: center;
+            margin-bottom: 10px;
+        }
+        
+        .icons i {
+            margin-top: 10px;
+        }
+        
+        .aboutme {
+            background: #fff;
+            padding: 3px;
+        }
+        
+        .text {
+            color: black;
+        }
+        
+        .section-header {
+            background: black;
+            border-radius: 50px;
+            color: white;
+            padding: 5px;
+        }
+        
+        .desk {
+            margin-left: 140px;
+            font-size: 15px;
+        }
+        
+        .progress-bar {
+            background: black;
+        }
+        
+        h3 {
+            margin-left: 20px;
+        }
+        
+        .text {
+            margin-left: 20px;
+        }
+        
+        .designation {
+            color: cyan;
+        }
+        
+        .job {
+            margin-left: 20px;
+            color: cyan;
+        }
+        
+        h6 {
+            margin-left: 20px;
+        }
+        
+        p {
+            font-size: 20px;
+            color: #fff;
+        }
+        
+        .hobby {
+            display: flex;
+            list-style: none;
+        }
+        
+        .hobby li {
+            width: 60px;
+            height: 60px;
+            border: 2px solid black;
+            position: relative;
+            border-radius: 50px;
+            margin: 5px;
+        }
+        
+        .hobby .icons i {
+            font-size: 20px;
+            margin-left: 15px;
+            margin-top: 20px;
+        }
+        
+        .course {
+            color: cyan;
+            font-size: 30px;
+        }
+        
+        .year {
+            color: #fff;
+            font-size: 25px;
+        }
+        
+        STRONG {
+            font-size: 25px;
+            color: #fff;
+        }
+        
+        .resume_data {
+            display: flex;
+        }
+        
+        .resume_data .year {
+            padding-right: 35px;
+            width: 115px;
+            position: relative;
+        }
+        
+        .resume_data .content {
+            margin-bottom: 20px;
+            width: calc(100% - 115px);
+            margin-left: 10px;
+        }
+        
+        .resume_data .year:before {
+            content: "";
+            position: absolute;
+            top: 5px;
+            right: 0;
+            width: 15px;
+            height: 12px;
+            background: #fff;
+            border: 8px solid #26252d;
+            border-radius: 50%;
+        }
+        
+        .resume_data .year:after {
+            content: "";
+            position: absolute;
+            top: 21px;
+            left: 105px;
+            width: 5px;
+            height: 100%;
+            background: #fff;
+        }
+        
+        .resume_data:last-child .year:after {
+            display: none;
+        }
